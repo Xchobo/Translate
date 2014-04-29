@@ -21,6 +21,13 @@
 		40484264190EABDB0091C897 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40484246190EABDA0091C897 /* UIKit.framework */; };
 		4048426C190EABDB0091C897 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4048426A190EABDB0091C897 /* InfoPlist.strings */; };
 		4048426E190EABDB0091C897 /* TranslateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048426D190EABDB0091C897 /* TranslateTests.m */; };
+		40484285190EAEDB0091C897 /* MSTranslateAccessTokenRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 40484279190EAEDB0091C897 /* MSTranslateAccessTokenRequester.m */; };
+		40484286190EAEDB0091C897 /* MSTranslateVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048427B190EAEDB0091C897 /* MSTranslateVendor.m */; };
+		40484287190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4048427D190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.m */; };
+		40484288190EAEDB0091C897 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 40484280190EAEDB0091C897 /* NSString+Extend.m */; };
+		40484289190EAEDB0091C897 /* NSXMLParser+Taged.m in Sources */ = {isa = PBXBuildFile; fileRef = 40484282190EAEDB0091C897 /* NSXMLParser+Taged.m */; };
+		4048428A190EAEDB0091C897 /* TranslateNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 40484284190EAEDB0091C897 /* TranslateNotification.m */; };
+		4048428C190EAEF10091C897 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4048428B190EAEF10091C897 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,20 @@
 		40484269190EABDB0091C897 /* TranslateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TranslateTests-Info.plist"; sourceTree = "<group>"; };
 		4048426B190EABDB0091C897 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4048426D190EABDB0091C897 /* TranslateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TranslateTests.m; sourceTree = "<group>"; };
+		40484278190EAEDB0091C897 /* MSTranslateAccessTokenRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTranslateAccessTokenRequester.h; sourceTree = "<group>"; };
+		40484279190EAEDB0091C897 /* MSTranslateAccessTokenRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTranslateAccessTokenRequester.m; sourceTree = "<group>"; };
+		4048427A190EAEDB0091C897 /* MSTranslateVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTranslateVendor.h; sourceTree = "<group>"; };
+		4048427B190EAEDB0091C897 /* MSTranslateVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTranslateVendor.m; sourceTree = "<group>"; };
+		4048427C190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+WebServiceExtend.h"; sourceTree = "<group>"; };
+		4048427D190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+WebServiceExtend.m"; sourceTree = "<group>"; };
+		4048427E190EAEDB0091C897 /* NSObject+Subscripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Subscripts.h"; sourceTree = "<group>"; };
+		4048427F190EAEDB0091C897 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		40484280190EAEDB0091C897 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		40484281190EAEDB0091C897 /* NSXMLParser+Taged.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSXMLParser+Taged.h"; sourceTree = "<group>"; };
+		40484282190EAEDB0091C897 /* NSXMLParser+Taged.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSXMLParser+Taged.m"; sourceTree = "<group>"; };
+		40484283190EAEDB0091C897 /* TranslateNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranslateNotification.h; sourceTree = "<group>"; };
+		40484284190EAEDB0091C897 /* TranslateNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranslateNotification.m; sourceTree = "<group>"; };
+		4048428B190EAEF10091C897 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4048428C190EAEF10091C897 /* AVFoundation.framework in Frameworks */,
 				40484245190EABDA0091C897 /* CoreGraphics.framework in Frameworks */,
 				40484247190EABDA0091C897 /* UIKit.framework in Frameworks */,
 				40484243190EABDA0091C897 /* Foundation.framework in Frameworks */,
@@ -101,6 +123,7 @@
 		40484241190EABDA0091C897 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4048428B190EAEF10091C897 /* AVFoundation.framework */,
 				40484242190EABDA0091C897 /* Foundation.framework */,
 				40484244190EABDA0091C897 /* CoreGraphics.framework */,
 				40484246190EABDA0091C897 /* UIKit.framework */,
@@ -112,6 +135,7 @@
 		40484248190EABDA0091C897 /* Translate */ = {
 			isa = PBXGroup;
 			children = (
+				40484277190EAEDB0091C897 /* MSTranslateVendor */,
 				40484251190EABDB0091C897 /* AppDelegate.h */,
 				40484252190EABDB0091C897 /* AppDelegate.m */,
 				40484254190EABDB0091C897 /* Main.storyboard */,
@@ -150,6 +174,26 @@
 				4048426A190EABDB0091C897 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40484277190EAEDB0091C897 /* MSTranslateVendor */ = {
+			isa = PBXGroup;
+			children = (
+				40484278190EAEDB0091C897 /* MSTranslateAccessTokenRequester.h */,
+				40484279190EAEDB0091C897 /* MSTranslateAccessTokenRequester.m */,
+				4048427A190EAEDB0091C897 /* MSTranslateVendor.h */,
+				4048427B190EAEDB0091C897 /* MSTranslateVendor.m */,
+				4048427C190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.h */,
+				4048427D190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.m */,
+				4048427E190EAEDB0091C897 /* NSObject+Subscripts.h */,
+				4048427F190EAEDB0091C897 /* NSString+Extend.h */,
+				40484280190EAEDB0091C897 /* NSString+Extend.m */,
+				40484281190EAEDB0091C897 /* NSXMLParser+Taged.h */,
+				40484282190EAEDB0091C897 /* NSXMLParser+Taged.m */,
+				40484283190EAEDB0091C897 /* TranslateNotification.h */,
+				40484284190EAEDB0091C897 /* TranslateNotification.m */,
+			);
+			path = MSTranslateVendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +293,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40484287190EAEDB0091C897 /* NSMutableURLRequest+WebServiceExtend.m in Sources */,
 				40484259190EABDB0091C897 /* ViewController.m in Sources */,
 				40484253190EABDB0091C897 /* AppDelegate.m in Sources */,
 				4048424F190EABDB0091C897 /* main.m in Sources */,
+				40484288190EAEDB0091C897 /* NSString+Extend.m in Sources */,
+				40484289190EAEDB0091C897 /* NSXMLParser+Taged.m in Sources */,
+				40484286190EAEDB0091C897 /* MSTranslateVendor.m in Sources */,
+				40484285190EAEDB0091C897 /* MSTranslateAccessTokenRequester.m in Sources */,
+				4048428A190EAEDB0091C897 /* TranslateNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
